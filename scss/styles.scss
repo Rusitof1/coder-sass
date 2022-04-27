@@ -1,0 +1,36 @@
+@import "vrmx.scss";
+
+
+
+body{
+background-color: $color-principal;
+
+ h1{
+    @include center;
+    @include font;  
+ }
+ main{
+     section{
+         div{
+p{
+    @include center;
+    @include font;
+}
+         }
+         .boton{
+            @include center;
+            @include button;
+            @include font;
+        }
+     }
+ }
+ footer{
+    margin-top:650px;
+     border-top:1px solid black;
+     p{
+         @include center;
+         @include font;
+
+     }
+ }
+}
